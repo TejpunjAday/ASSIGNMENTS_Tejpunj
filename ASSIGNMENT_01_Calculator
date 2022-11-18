@@ -1,0 +1,14 @@
+num1 = float(input("Enter the first value:- "))
+op = input("Enter the opretor(+,-,*,/):- ")
+num2 = float(input("Enter the second value:- "))
+
+if op== "+":
+    print(num1+num2)
+elif op== "-":
+    print(num1-num2)
+elif op== "*":
+    print(num1*num2)
+elif op== "/":
+    print(num1/num2)
+else:
+    print("Invalid opretor")    
