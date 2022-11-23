@@ -1,0 +1,6 @@
+list1=[7,14,82,65,98,78,24,21]
+for x in list1:
+    if x%7!=0:
+        print(x,"is not divisible by 7")
+    else:
+        print(x,"divisible by 7")
