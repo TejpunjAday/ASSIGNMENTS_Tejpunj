@@ -1,3 +1,5 @@
+# Simple calculator
+
 num1 = float(input("Enter the first value:- "))
 op = input("Enter the opretor(+,-,*,/):- ")
 num2 = float(input("Enter the second value:- "))
@@ -12,3 +14,16 @@ elif op== "/":
     print(num1/num2)
 else:
     print("Invalid opretor")    
+
+# Examples on w+, r+
+
+with open("Python.txt","r+") as f:
+   f.write("yes i can do it")
+   f.seek(0)
+   a = f.read()
+   print(a)
+
+with open("Python.txt","r+") as f :
+  a = f.read()
+  print(a)
+  f.write("Thank you") 
