@@ -1,0 +1,32 @@
+# write a program to print the largest and smallest number of the list :-
+
+list1 = [22,85,96,99,10,5,6]
+list1.sort()
+print(list1)
+print(f"Samllest number of given list is {list1[0]}")
+print(f"Largest number of given list is {list1[-1]}")
+
+
+# Write a program to delete the alternative numbers in a list :-
+
+list1 = [22,85,96,99,10,5,6]
+delete_item = list1.pop(2)
+print(list1)
+print(delete_item)
+
+
+# write a program to delete the odd number in a list and print the even numbers :-
+
+list1 = [22,85,96,99,10,5,6]
+
+print ("Original list:")
+print (list1)
+
+# remove elements
+# which are ODD (not divisible by 2) 
+for x in list1:
+	if(x%2 != 0):
+	    list1.remove(x)
+
+print ("list after removing ODD numbers:")
+print (list1)
